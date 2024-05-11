@@ -1,0 +1,117 @@
+:root {
+  font-family: Freeman;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  background-color: #d6eded;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 30px;
+}
+.item-wrapper {
+  max-width: fit-content;
+  position: fixed;
+  left: 50%;
+  margin-top: 20vh;
+  transform: translate(-50%, 0%);
+  background-color: #316a74;
+  padding: 8px;
+  color: #030300;
+}
+input {
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+  /* text-align: center; */
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  width: 80%;
+  margin-bottom: 3px;
+  color: #030300;
+  font-weight: 600;
+}
+input:focus{
+  border:none;
+  outline-width:0;
+}
+
+.button-59 {
+  align-items: center;
+  border:none;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 55px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 60px;
+  border-radius: 8px;
+}
+
+.button-59:hover {
+  background-color: #dd7f73;
+}
+
+.button-59:active {
+  background-color: #dd7f73;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 10px;
+  }
+}
+.todo-input {
+  border-style: none;
+}
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  background-color: #fafafa;
+  border-radius: 8px;
+
+}
+.todo-item {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: space-between;
+  align-items: center;
+  color: #030300;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.todo-item p {
+  margin-left: 10px;
+}
+.item-button {
+  font-size: 20px;
+  margin: 0 8px;
+  cursor: pointer;
+  color: #030300;
+}
+.item-button:hover {
+  color: #dd7f73;
+  transition: 0.3s;
+}
