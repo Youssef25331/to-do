@@ -19,8 +19,9 @@ h1 {
   margin: 30px;
 }
 .item-wrapper {
-  max-width: fit-content;
-  position: fixed;
+  overflow:auto;
+  width:400px;
+  position: relative;
   left: 50%;
   margin-top: 20vh;
   transform: translate(-50%, 0%);
@@ -32,8 +33,6 @@ input {
   background-color: #fafafa;
   border-radius: 8px;
   padding: 10px;
-  /* text-align: center; */
-  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
   width: 80%;
   margin-bottom: 3px;
   color: #030300;
