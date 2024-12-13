@@ -1,6 +1,5 @@
 # About
-This is a responvie React movie app made using The Movie DB API. The user can either browse the main
-page with a list of popular or trending Movies/Shows or use the search functionality to find something of intrest.
+This is a simple and intuitive To-Do List application built with React and Vite. It allows you to efficiently manage your tasks by adding, editing, and removing items from your list. All tasks are seamlessly saved to your local storage, ensuring your data persists even after refreshing or closing the browser.
 
 ## Getting Started with The app
 
