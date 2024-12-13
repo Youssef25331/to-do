@@ -1,8 +1,19 @@
-# React + Vite
+# About
+This is a responvie React movie app made using The Movie DB API. The user can either browse the main
+page with a list of popular or trending Movies/Shows or use the search functionality to find something of intrest.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started with The app
 
-Currently, two official plugins are available:
+In the project directory, you can run:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm run vite`
+
+Open [http://localhost](http://localhost:5173) to view it in your browser.
+
+# Resource
+
+Server: [Vite](https://vite.dev)
+
+Hosting: [Firebase](https://firebase.google.com)
+
+# Preview
